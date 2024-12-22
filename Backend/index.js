@@ -6,7 +6,7 @@ const express = require ("express")
  const nodemailer = require("nodemailer");
  const mongoose = require("mongoose")
 
-mongoose.connect("mongodb://127.0.0.1:27017/passkey").then(function() {
+mongoose.connect("mongodb+srv://flamechaserzx:123@cluster0.h37l3.mongodb.net/passkey?retryWrites=true&w=majority&appName=Cluster0").then(function() {
     console.log("Connected to DB")
 }).catch(function() {
     console.log("Failed to connect")
