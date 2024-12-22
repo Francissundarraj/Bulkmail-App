@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.neonButton {
+    box-shadow: 0 0 5px #ff4081, 0 0 10px #ff4081;
+    transition: all 0.3s ease;
+  }
+  
+  .neonButton:hover {
+    box-shadow: 0 0 20px #ff4081, 0 0 30px #ff4081;
+  }
